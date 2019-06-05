@@ -42,15 +42,16 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 								<td class="data-right"><xsl:value-of select = "Days_Remaining"/></td>
 								<td class="data-right"><xsl:value-of select = "AskRate"/></td>
 							</tr>   
-						</xsl:for-each>  
-						<tr class="footer"><td ><b>Total</b></td>
-							<td class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+							</xsl:for-each>  
+							<tr class="footer">
+							<td ><b>Total</b></td>
+							<td class="footer-right"></td>
 							
 							<td class="footer-right"><b><xsl:value-of select="sum(/root/item/Achieved)"/></b></td>
 							<td class="footer-right"><b><xsl:value-of select="sum(/root/item/Target)"/></b></td>
-							<td class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
 							
 							
 							
@@ -62,5 +63,5 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 			
 		</html>   
 	</xsl:template>    
-							
+	
 </xsl:stylesheet>  

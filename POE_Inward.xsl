@@ -52,7 +52,7 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 								
 								<td class="data-right"><xsl:value-of select = "Picture_of_Lorry_Receipt"/></td>
 								<td class="data-right"><xsl:value-of select = "Entering_Invoice_Number_and_Uploading_a_picture_of_the_Invoice"/></td>
-								<td class="data-left"><xsl:value-of select = "Eway_Bill"/></td>
+								<td class="data-right"><xsl:value-of select = "Eway_Bill"/></td>
 								<td class="data-right"><xsl:value-of select = "Picture_of_Form6"/></td>
 								
 								<td class="data-right"><xsl:value-of select = "Picture_of_the_Drivers_License"/></td>

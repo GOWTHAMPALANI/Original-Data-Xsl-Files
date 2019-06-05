@@ -47,13 +47,14 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 							</tr>   
 							
 						</xsl:for-each>   
-						<tr class="footer"><td ><b>Total</b></td>
-							<td class="data-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+						<tr class="footer">
+						    <td><b>Total</b></td>
+							<td class="footer-right"></td>
 							<td class="data-right"><b><xsl:value-of select="sum(/root/item/Target)"/></b></td>
 							<td class="data-right"><b><xsl:value-of select="sum(/root/item/Achieved)"/></b></td>
-							<td class="data-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td class="data-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td class="data-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
 							
 							
 							

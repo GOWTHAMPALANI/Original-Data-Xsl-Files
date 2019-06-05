@@ -45,11 +45,12 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 							</tr>   
 							
 						</xsl:for-each>   
-						<tr class="footer" ><td ><b>Total</b></td>
-							<td class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+						<tr class="footer">
+							<td><b>Total</b></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
 							<td class="footer-right"><b><xsl:value-of select="sum(/root/item/Quantity)"/></b></td>
-							<td class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+							<td class="footer-right"></td>
 							<td class="footer-right"><b><xsl:value-of select="sum(/root/item/Cost)"/></b></td>
 							<td class="footer-right" ><b><xsl:value-of select="sum(/root/item/GST)"/></b></td>
 							

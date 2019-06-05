@@ -51,8 +51,8 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 							<tr >
 								<td class="data-left" ><xsl:value-of select = "Invoice_Number"/></td> 
 								<td class="data-left" ><xsl:value-of select = "Invoice_Date"/></td>
-								<td class="data-right" ><xsl:value-of select = "Updated_Invoice_Number"/></td>   
-								<td class="data-left" ><xsl:value-of select = "Picture_of_the_Vehicle"/></td>  
+								<td class="data-left" ><xsl:value-of select = "Updated_Invoice_Number"/></td>   
+								<td class="data-right" ><xsl:value-of select = "Picture_of_the_Vehicle"/></td>  
 								<td class="data-right"><xsl:value-of select = "Weighing_Slip"/></td>
 								
 								<td class="data-right"><xsl:value-of select = "Entering_Invoice_Number_and_Uploading_a_picture_of_the_Invoice__Seller_Invoice_"/></td>

@@ -42,7 +42,7 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 							<tr>
 								<td class="data-left"><xsl:value-of select = "Date"/></td>   
 								<td class="data-left"><xsl:value-of select = "Seller"/></td>   
-								<td class="data-left"><xsl:value-of select = "SellerBill"/></td>   
+								<td class="data-right"><xsl:value-of select = "SellerBill"/></td>   
 								<td class="data-left"><xsl:value-of select = "State_Name"/></td>   
 								<td class="data-left"><xsl:value-of select = "City_Name"/></td> 
 								<td class="data-left"><xsl:value-of select = "Category"/></td>
@@ -61,21 +61,22 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 						</xsl:for-each>   
 						<tr class="footer" >
 							<td ><b>Total</b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
+							
 							
 							
 							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item/Quantity)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+							<td class="footer-right"></td>
 							
 							
 							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item/Value)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
-							<td  class="footer-right"><b><xsl:value-of select="sum(/root/item)"/></b></td>
+							<td class="footer-right"></td>
+							<td class="footer-right"></td>
 							
 							
 							
